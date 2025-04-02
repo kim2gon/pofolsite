@@ -21,17 +21,19 @@ function App() {
         <div className=" w-[1px] h-dvh bg-[#eee]"></div>
         <div className=" w-[1px] h-dvh bg-[#eee]"></div>
       </div>
-      <Header />
-      <Navbar />
       <div className='z-10'>
-        <Section1 />
-        <Section2 />
-        <Section3 />
-        <Section4 />
-        <Section5 />
-        <Section6 />
+        <Header />
+        <Navbar />
+        <div>
+          <Section1 />
+          <Section2 />
+          <Section3 />
+          <Section4 />
+          <Section5 />
+          <Section6 />
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }

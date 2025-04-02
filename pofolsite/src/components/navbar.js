@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='navbarbasic z-10'>
+    <div className='navbarbasic'>
       <ul>
         <li>
           <a href='#section1'>
