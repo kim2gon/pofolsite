@@ -37,14 +37,3 @@
     transform: rotate(360deg);
   }
 }
-
-.navbarbasic {
-  position: fixed;
-  right: var(--scrollnav-position);
-  bottom: 50px;
-  display: grid;
-  justify-items: flex-end;
-  z-index: 11;
-  mix-blend-mode: difference;
-  color: rgb(0,0,0);
-}

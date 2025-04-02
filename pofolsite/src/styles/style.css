@@ -1,0 +1,79 @@
+html,
+body {
+    overflow: hidden;
+}
+
+:root {
+    --mw-1300: 1300px;
+    --hp-30: 30px;
+    --ts-109: 109px;
+    --ts-11: 11px;
+    --sc1-240: 240px;
+    --sc1-128: 128px;
+    --sc1-460: 460px;
+    --sc1-139: 139px;
+}
+
+
+.mainwidth {
+    width: var(--mw-1300);
+    margin: 0 auto;
+}
+
+
+.header {
+    padding: var(--hp-30);
+}
+
+
+.navbarbasic {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: grid;
+    justify-items: flex-end;
+    z-index: 11;
+    mix-blend-mode: difference;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.sec1div1 {
+    width: var(--sc1-460);
+    padding: 10vh 0 0;
+}
+
+.h1style {
+    font-size: var(--ts-109);
+    font-weight: bold;
+    width: var(--sc1-460);
+    height: var(--sc1-139);
+}
+
+.sec1div2 {
+    width: var(--sc1-240);
+    height: var(--sc1-128);
+}
+
+.text11 {
+    font-size: var(--ts-11);
+    margin: 16px 40px;
+    max-width: 240px;
+    gap: 32px;
+    display: grid;
+    justify-items: left;
+}
+
+.sec1a {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    min-width: 16px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding: 16px 30px 11px;
+    background: #000;
+}

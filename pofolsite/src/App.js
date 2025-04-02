@@ -1,4 +1,5 @@
 import './App.css';
+import './styles/style.css'
 import Footer from './components/footer';
 import Header from './components/header';
 import Navbar from './components/navbar';
@@ -12,15 +13,24 @@ import Section6 from './sections/section6';
 
 function App() {
   return (
-    <div className='flex flex-col w-full h-full'>
+    <div className='flex flex-col h-full mainwidth'>
+      <div className="w-dvw flex justify-between max-w-[1300px] mx-auto px-4 md:px-[5%] fixed overflow-hidden z-0">
+        <div className=" w-[1px] h-dvh bg-[#eee]"></div>
+        <div className=" w-[1px] h-dvh bg-[#eee]"></div>
+        <div className=" w-[1px] h-dvh bg-[#eee]"></div>
+        <div className=" w-[1px] h-dvh bg-[#eee]"></div>
+        <div className=" w-[1px] h-dvh bg-[#eee]"></div>
+      </div>
       <Header />
       <Navbar />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
+      <div className='z-10'>
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+      </div>
       <Footer />
     </div>
   );
