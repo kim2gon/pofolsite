@@ -11,7 +11,7 @@ body {
     --sc1-240: 240px;
     --sc1-128: 128px;
     --sc1-460: 460px;
-    --sc1-139: 139px;
+    --sc1-139: 139px; 
 }
 
 
@@ -38,7 +38,9 @@ body {
 }
 
 
-
+.secpd {
+    padding: 100px 0 75px;
+}
 
 .sec1div1 {
     width: var(--sc1-460);
@@ -64,6 +66,12 @@ body {
     gap: 32px;
     display: grid;
     justify-items: left;
+}
+
+.sec1txt{
+    max-width: 200px;
+    top: 150px;
+    right: 85px;
 }
 
 .sec1a {

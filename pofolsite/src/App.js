@@ -21,6 +21,7 @@ function App() {
         <div className=" w-[1px] h-dvh bg-[#eee]"></div>
         <div className=" w-[1px] h-dvh bg-[#eee]"></div>
       </div>
+      <div className='character'></div>
       <div className='z-10'>
         <Header />
         <Navbar />
