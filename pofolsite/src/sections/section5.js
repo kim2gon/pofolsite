@@ -2,7 +2,9 @@ import React from 'react'
 
 const Section5 = () => {
   return (
-    <div>Section5</div>
+    <section className="w-full h-dvh flex items-center justify-center text-black relative">
+      <div className="w-4/5 xl:w-[960px] mx-auto text-center">HELLO</div>
+    </section>
   )
 }
 

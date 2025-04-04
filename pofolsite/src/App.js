@@ -13,8 +13,8 @@ import Section6 from './sections/section6';
 
 function App() {
   return (
-    <div className='flex flex-col h-full mainwidth'>
-      <div className="w-dvw flex justify-between max-w-[1300px] mx-auto px-4 md:px-[5%] fixed overflow-hidden z-0">
+    <div className='flex flex-col h-full w-[1300px] my-0 mx-auto'>
+      <div className="w-dvw flex justify-between max-w-[1300px] mx-auto px-4 md:px-[5%] absolute overflow-hidden z-0">
         <div className=" w-[1px] h-dvh bg-[#eee]"></div>
         <div className=" w-[1px] h-dvh bg-[#eee]"></div>
         <div className=" w-[1px] h-dvh bg-[#eee]"></div>

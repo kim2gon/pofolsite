@@ -1,51 +1,23 @@
 import React from 'react'
 
 const Navbar = () => {
+  const sectionText = [
+    '01', '02', '03', '04', '05', '06'
+  ]
+
   return (
-    <div className='navbarbasic'>
+    <div className='fixed right-[50px] bottom-[50px] grid z-10 mix-blend-difference text-[#111]'>
       <ul>
-        <li>
-          <a href='#section1'>
-            <span>
-              section1
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href='#section2'>
-            <span>
-              section2
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href='#section3'>
-            <span>
-              section3
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href='#section4'>
-            <span>
-              section4
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href='#section5'>
-            <span>
-              section5
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href='#section6'>
-            <span>
-              section6
-            </span>
-          </a>
-        </li>
+        {
+          sectionText.map((v, i)=>(
+            <li>
+            <button className='mb-5 grid grid-flow-col items-center navastyle'>
+              <span className='navfont1'>section</span>
+              <span className='navfont2'>{v}</span>
+            </button>
+          </li>
+          ))
+        }
       </ul>
     </div>
   )
