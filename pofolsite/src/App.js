@@ -9,6 +9,7 @@ import Section3 from './sections/section3';
 import Section4 from './sections/section4';
 import Section5 from './sections/section5';
 import Section6 from './sections/section6';
+import Character from './components/character';
 
 
 function App() {
@@ -21,7 +22,9 @@ function App() {
         <div className=" w-[1px] h-dvh bg-[#eee]"></div>
         <div className=" w-[1px] h-dvh bg-[#eee]"></div>
       </div>
-      <div className='character'></div>
+      <div>
+        <Character />
+      </div>
       <div className='z-10'>
         <Header />
         <Navbar />

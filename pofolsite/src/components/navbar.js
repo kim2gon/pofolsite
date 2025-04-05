@@ -6,19 +6,14 @@ const Navbar = () => {
   ]
 
   return (
-    <div className='fixed right-[50px] bottom-[50px] grid z-10 mix-blend-difference text-[#111]'>
-      <ul>
-        {
-          sectionText.map((v, i)=>(
-            <li>
-            <button className='mb-5 grid grid-flow-col items-center navastyle'>
-              <span className='navfont1'>section</span>
-              <span className='navfont2'>{v}</span>
-            </button>
-          </li>
-          ))
-        }
-      </ul>
+    <div className='fixed right-[4.7vw] bottom-[50px] flex flex-col z-10 mix-blend-difference text-[#111]'>{
+      sectionText.map((v, i) => (
+        <a href='#header.js' className='mb-5 flex items-center gap-[53px]'>
+          <span className='font-medium text-[10px] leading-normal text-right self-end'>section</span>
+          <span className='font-medium text-xs leading-tight text-center'>{v}</span>
+        </a>
+      ))
+    }
     </div>
   )
 }
